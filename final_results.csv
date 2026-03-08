@@ -1,0 +1,11 @@
+metric_name,overall_value,class_fractured,class_not fractured,interpretation
+Accuracy,0.9421,N/A,N/A,Overall correctness
+Precision,0.9473,0.9676,0.9269,Positive prediction reliability
+Recall,0.9335,0.8872,0.9797,Detection rate per fracture type
+F1-Score,0.9391,0.9257,0.9526,Balanced performance per class
+AUC-ROC,nan,N/A,N/A,Threshold-independent discriminability
+Macro_F1,0.9391,N/A,N/A,Primary ranking metric
+
+CONFUSION_MATRIX,fractured,not fractured,
+True_fractured,299,38,
+True_not fractured,10,482,
